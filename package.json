@@ -1,0 +1,33 @@
+{
+  "name": "ttuple-object-isPartOfTypeNode-cannot-read-kind",
+  "version": "0.0.1",
+  "description": "Minimal test case for Object.isPartOfTypeNode to be crashed with TypeError: Cannot read properties of undefined (reading 'kind')",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beraliv/ttuple.git"
+  },
+  "keywords": [
+    "typescript",
+    "array"
+  ],
+  "author": "Alexey Berezin <beraliv.spb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beraliv/ttuple/issues"
+  },
+  "homepage": "https://github.com/Beraliv/ttuple#readme",
+  "dependencies": {
+    "typescript": "4.8.0-dev.20220804"
+  }
+}
